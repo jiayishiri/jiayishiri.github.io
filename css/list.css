@@ -1,0 +1,59 @@
+.ms{
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  border-left: 2px solid #C81523;
+  padding-left: 14px;
+  padding-top: 3px;
+
+}
+.listlr{
+  height: 31px;
+  border-bottom: 2px solid #C40000 ;
+}
+.list_l{
+  float: left;
+}
+.list_l li{
+  float: left;
+  line-height: 31px;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 20px;
+}
+.listlr .list_r{
+  float: right;
+}
+.listlr .list_r ul li{
+  float: left;
+  line-height: 31px;
+  margin: 0 25px;
+}
+.listlr .list_r ul li .icongdfl::after{
+  content:"\e91e";
+  font-family:"icomoon";
+}
+.nx{
+  height: 120px;
+  background:url(../upload/bg_03.png);
+}
+.list_list{
+  height: 1882px;
+  margin-top: 20px;
+}
+.list_list ul{
+  padding: 0 0;
+}
+.list_list ul li{
+  float: left;
+  width: 290px;
+  height: 463px;
+  margin: 0 10px 10px 0;
+}
+.list_list ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background:url(../upload/list.jpg) no-repeat;
+}
+

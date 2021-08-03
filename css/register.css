@@ -1,0 +1,128 @@
+.w{
+  width: 1200px;
+  margin: 0 auto;
+}
+.allred{
+  color: rgb(204, 4, 4);
+}
+.allblue{
+  color: rgb(3, 110, 233);
+}
+.header{
+  height: 84px;
+  border-bottom: 2px solid rgb(214, 7, 7);
+}
+.header img{
+  padding-top: 15px;
+}
+.registerarea{
+  height: 522px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+.registerarea .dd{
+  height: 42px;
+  background-color: rgb(231, 229, 229);
+}
+.registerarea .dd .dd_l{
+  float: left;
+  margin-left: 10px;
+  line-height: 42px;
+  font-size: 18px;
+}
+.registerarea .dd .dd_r{
+  float: right;
+  line-height: 42px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.dt .reg_form{
+  width: 600px;
+  margin: 50px auto 0;
+  /* background-color:pink; */
+}
+.dt .reg_form ul li{
+  margin: 24px 0;
+}
+.dt .reg_form ul li label{
+   display: inline-block;
+   width: 88px;
+   text-align: right;
+}
+.dt .reg_form ul li .inp{
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
+}
+.dt .reg_form ul li .error{
+  color: rgb(202, 6, 6);
+  padding-left: 10px;
+}
+.error_icon{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background: url(../images/error.png)  no-repeat;
+} 
+.dt .reg_form ul li .success{
+  color: rgb(50, 202, 50);
+  padding-left: 10px;
+}
+.success_icon{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background: url(../images/success.png)  no-repeat;
+} 
+.safe{
+  padding-left: 160px;
+}
+.safe em{
+  margin: 0 4px;
+  padding:0 12px;
+}
+.ruo{
+ 
+  background-color: #de1111;
+}
+.zhong{
+  background-color: #40b83f;
+}
+.qiang{
+  background-color: #f79100;
+}
+.dt .reg_form ul .ty{
+  margin-left: 90px;
+}
+.dt .reg_form ul li input{
+  vertical-align: middle;
+}
+.btnwczc{
+  width: 200px;
+  height: 34px;
+  background-color: #c81623;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 90px;
+}
+.moc_copyright .moc_copyright1 ul li{
+  float: left;
+}
+.moc_copyright .moc_copyright1{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.moc_copyright .moc_copyright1 ul li:nth-child(even){
+  width: 1px;
+  height: 12px;
+  background-color: rgb(104, 100, 100);
+  margin-top: 3px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.moc_copyright .moc_copyright2 p{
+  text-align:center;
+  font-size: 10px;
+}

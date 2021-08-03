@@ -1,0 +1,174 @@
+.main{
+  width: 980px;
+  height: 455px;
+  margin-left: 220px;
+  margin-top: 12px;
+}
+.focus{
+  float: left;
+  width: 721px;
+  height: 455px;
+}
+.newsflash{
+  float: right;
+  width: 250px;
+  height: 455px;
+}
+.news{
+  height: 165px;
+  
+}
+.lifeservice{
+  height: 209px;
+  /* background-color:pink; */
+}
+.bargain{
+  margin-top: 4px;
+}
+.news_dt{
+  line-height: 33px;
+  height: 33px;
+  padding: 0 15px;
+  border-bottom: 1px dotted #e4e4e4;
+}
+.newsflash .news{
+  border: 1px solid #e6e6e6;
+}
+.news_dt .news_dt_left{
+  float: left;
+  font-size: 14px;
+}
+.news_dt .news_dt_right{
+  float: right;
+  font-size: 10px;
+}
+.news_dt .news_dt_right::after{
+  content: "\e920";
+  font-family: 'icomoon';
+}
+.news_dd ul {
+   padding: 10px 0 0 15px;
+}
+.news_dd ul li{
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+.news_dd ul li span{
+  font-weight: 700;
+}
+.lifeservice ul{
+  padding:0px 0px;
+}
+.lifeservice{
+  background:url(../images/icons.png) no-repeat 2px 1px;
+}
+.lifeservice ul li{
+  float: left;
+  height: 67.7px;
+  width: 60.5px;
+  border: 1px solid #e6e6e6;
+}
+.lifeservice ul li .bba{
+ margin: 43px  auto;
+ text-align: center;
+ padding-top: 2px;
+}
+.recom{
+  height: 163px;
+  background-color: #E5E5E5;
+}
+.recom .recom_dt{
+  float: left;
+  height: 163px;
+  width: 205px;
+  background-color: #5c5251;
+}
+.recom .recom_dt img{
+  margin-top: 30px;
+  margin-left: 54px;
+}
+.recom .recom_dd ul li{
+  float: left;
+}
+.recom .recom_dd ul li:nth-child(2n+1){
+  width: 248px;
+  height: 163px;
+  background:url(../upload/recom_03.jpg);
+}
+.recom .recom_dd ul li:nth-child(2n){
+  width: 1px;
+  height: 130px;
+  margin-top: 15px;
+  background-color: #c4c2c2;
+}
+.floor{
+  margin-top: 20px;
+}
+.floor1_dt{
+  height: 30px;
+  border-bottom: 2px solid #C81623;
+}
+.floor1_dt .floor1_dt_l h3{
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color:#c81623;
+}
+.floor1_dt .floor1_dt_r{
+  float: right;
+}
+.floor1_dt .floor1_dt_r ul li{
+  float: left;
+  line-height: 30px;
+  margin: 0 8px;
+}
+.floor1_dt .floor1_dt_r ul li:nth-child(even){
+   width: 1px;
+   height: 11px;
+   background-color: #989898;
+   margin-top: 10px;
+}
+.floor1 .floor1_dd{
+  height: 361px;
+}
+.floor1 .floor1_dd>div{
+  float: left;
+}
+.col_1 .coll ul li{
+  float: left;
+  width: 90px;
+  height: 30px;
+  font-size: 8px;
+  margin: 0 7px;
+  text-align: center;
+  border-bottom: 1px solid #c2bbbb;
+}
+.col_1 .coll ul{
+  padding:0 0;
+}
+.col_1{
+  width: 210px;
+  height: 360px;
+  background: #F1F1F1;
+}
+.col_1 .imgg img{
+  width: 210px;
+ height: 267px;
+}
+.col_2{
+  width: 329px;
+}
+.col_3{
+  width: 221px;
+}
+.col_4{
+  width: 221px;
+}
+.col_5{
+  width: 219px;
+}
+
+
+
+
